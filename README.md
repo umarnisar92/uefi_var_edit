@@ -13,6 +13,8 @@ Modify the data with `.\uefi_var_edit dump.txt`
 
 ### An example of data modification:
 
+Change Data byte (offset 0x38) from 0x07 to 0x08.
+
 ```
 4c4
 < 00000030: 1302 113d 0300 0000 074f 1b96 9818 0000  ...=.....O......
